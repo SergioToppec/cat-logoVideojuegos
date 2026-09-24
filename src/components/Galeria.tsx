@@ -183,11 +183,6 @@ function GameCardItem({ game, index }: { game: GameCard; index: number }) {
           {game.info}
         </p>
       </div>
-
-      <div className="mt-6 flex items-center justify-between pt-4 border-t border-white/[0.05]">
-        <span className="text-[11px] text-zinc-500 font-medium">Estética</span>
-        <span className="text-xs font-medium text-zinc-300">{game.tone}</span>
-      </div>
     </article>
   );
 }
