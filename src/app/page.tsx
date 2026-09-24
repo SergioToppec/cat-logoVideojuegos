@@ -4,9 +4,9 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col justify-between bg-white dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 font-sans">
+    <div className="min-h-screen flex flex-col bg-[#111111] text-zinc-100 font-sans">
       <Header />
-      <main className="flex-1 flex flex-col items-center justify-center">
+      <main className="flex-1">
         <Galeria />
       </main>
       <Footer />
